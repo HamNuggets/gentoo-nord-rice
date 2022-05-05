@@ -1,0 +1,23 @@
+[Default Applications]
+x-scheme-handler/http=userapp-Firefox-HF3QL1.desktop
+x-scheme-handler/https=userapp-Firefox-HF3QL1.desktop
+x-scheme-handler/chrome=userapp-Firefox-HF3QL1.desktop
+text/html=userapp-Firefox-HF3QL1.desktop
+application/x-extension-htm=userapp-Firefox-HF3QL1.desktop
+application/x-extension-html=userapp-Firefox-HF3QL1.desktop
+application/x-extension-shtml=userapp-Firefox-HF3QL1.desktop
+application/xhtml+xml=userapp-Firefox-HF3QL1.desktop
+application/x-extension-xhtml=userapp-Firefox-HF3QL1.desktop
+application/x-extension-xht=userapp-Firefox-HF3QL1.desktop
+
+[Added Associations]
+x-scheme-handler/http=userapp-Firefox-HF3QL1.desktop;
+x-scheme-handler/https=userapp-Firefox-HF3QL1.desktop;
+x-scheme-handler/chrome=userapp-Firefox-HF3QL1.desktop;
+text/html=userapp-Firefox-HF3QL1.desktop;
+application/x-extension-htm=userapp-Firefox-HF3QL1.desktop;
+application/x-extension-html=userapp-Firefox-HF3QL1.desktop;
+application/x-extension-shtml=userapp-Firefox-HF3QL1.desktop;
+application/xhtml+xml=userapp-Firefox-HF3QL1.desktop;
+application/x-extension-xhtml=userapp-Firefox-HF3QL1.desktop;
+application/x-extension-xht=userapp-Firefox-HF3QL1.desktop;
