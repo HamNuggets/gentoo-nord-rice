@@ -28,9 +28,6 @@ font pango:monospace 8
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
 
-gaps inner 15
-gaps outer 0
-
 ###############
 # Keybindings #
 ###############
@@ -39,7 +36,7 @@ gaps outer 0
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec xterm
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+c kill
@@ -154,12 +151,13 @@ bindsym $mod+r mode "resize"
 # Classes #
 ###########
 
-#for window [class="^.*"] border pixel 3
-#gaps top 50
+for_window [class="^.*"] border pixel 3
+gaps inner 15
+gaps outer 0
+gaps top 20
 
 ####################
 # Startup Commands #
 ####################
 
-exec_always xrandr -s 1920x1080 && nitrogen --restore && polybar mybar
-
+exec_always xrandr -s 1920x1080 && nitrogen --restore && sh /home/basil/.config/polybar/load_polybar.sh
